@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiFillGithub, AiFillInstagram } from 'react-icons/ai';
+import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiFillGithub, AiFillInstagram, AiFillMail } from 'react-icons/ai';
 import { HiArrowRight } from 'react-icons/hi';
 import deved from '../../../public_pro/dev.png';
 import { Link } from 'react-scroll'
@@ -29,7 +29,7 @@ function Home() {
                     <div className='hidden md:flex text-4xl  justify-center lg:justify-center gap-16 py-3 text-white dark:text-gray-500'>
                         <a href="https://github.com/chaitanyagirgaonkar" target="blank"><AiFillGithub /></a>
                         <a href="https://www.linkedin.com/in/chaitanya-girgaonkar-4576b4226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"><AiFillLinkedin /></a>
-                        <a href="https://www.instagram.com/__chaitanyagirgaonkar__?utm_source=qr&igsh=YjE5NDMyY2FhOQ==" target="blank"><AiFillInstagram /></a>
+                        <a href="mailto:girgaonkar.chaitanya@gmail.com" target="blank"><AiFillMail /></a>
 
 
 

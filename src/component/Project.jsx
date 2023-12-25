@@ -28,7 +28,7 @@ function Project() {
 
     return (
         <div name='project' className='w-screen h-screen bg-gray-900 dark:bg-white text-white dark:text-black'>
-            <div className='h-[100px]'></div>
+            <div className='lg:h-[100px]'></div>
             <h1 className='text-teal-600 text-5xl text-center font-semibold mb:10  pt-40 lg:pt-0'>My Projects</h1>
 
 
@@ -36,8 +36,8 @@ function Project() {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-20 px-12 sm:px-20 mx-auto pt-20 m-auto'>
 
                 {Project.map(({ id, src, style, border, code, link }) => (
-                    <div key={id} className={`shadow-md  rounded-lg ${style} m-auto`}>
-                        <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
+                    <div key={id} className={`shadow-md  rounded-lg ${style} m-auto hover:scale-105`}>
+                        <img src={src} alt="" className='rounded-md duration-200 ' />
                         <div className='flex items-center justify-center'>
                             <a href={link} target="blank"><button className={` text-white  border  rounded-md px-6 py-3 m-4 duration-200 hover:scale-105 ${border} dark:text-black`}>Demo</button></a>
                             <a href={code} target="blank"> <button className={` text-white  border  rounded-md px-6 py-3 m-4 duration-200 hover:scale-105 ${border} dark:text-black`}>Code</button></a>

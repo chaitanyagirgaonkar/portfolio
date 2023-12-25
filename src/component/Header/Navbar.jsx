@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import { AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram, AiFillGithub } from 'react-icons/ai';
+import { AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram, AiFillGithub, AiFillMail } from 'react-icons/ai';
 import { Link } from 'react-scroll'
 import resume from '../Header/resume.pdf'
 import useTheme from '../../context/Theme';
@@ -50,7 +50,7 @@ function Navbar() {
             <div className='md:hidden flex flex-row  gap-6'>
                 <a href="https://github.com/chaitanyagirgaonkar" target="blank"><AiFillGithub className='text-2xl' /></a>
                 <a href="https://www.linkedin.com/in/chaitanya-girgaonkar-4576b4226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"><AiFillLinkedin className='text-2xl' /></a>
-                <a href="https://www.instagram.com/__chaitanyagirgaonkar__?utm_source=qr&igsh=YjE5NDMyY2FhOQ==" target="blank"><AiFillInstagram className='text-2xl' /></a>
+                <a href="mailto:girgaonkar.chaitanya@gmail.com" target="blank"><AiFillMail className='text-2xl' /></a>
 
 
 

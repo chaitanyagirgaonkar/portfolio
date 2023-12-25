@@ -3,7 +3,7 @@ import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiFillMail } from '
 
 function Contact() {
     return (
-        <div name='contact' className='w-screen h-screen lg:h-[500px] bg-gray-900 dark:bg-white text-white dark:text-black flex flex-col justify-center items-center'>
+        <div name='contact' className='w-screen h-screen  bg-gray-900 dark:bg-white text-white dark:text-black flex flex-col justify-center items-center'>
             <h3 className='text-teal-600 text-2xl text-center font-semibold mb:10  pt-40 lg:pt-0'>Get In Touch</h3>
             <h1 className='text-teal-600 text-5xl text-center font-semibold mb:10  pt-0 lg:pt-0'>Contact Me</h1>
             <div className='flex flex-col lg:flex-row border border-teal-600 p-5 rounded-3xl gap-5 text-teal-600 mt-10'>

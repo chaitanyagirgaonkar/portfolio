@@ -51,20 +51,22 @@ function Skill() {
 
     return (
         <div name='skills' className='w-screen h-screen bg-gray-900 dark:bg-white text-white dark:text-black'>
-            <div className='h-[100px]'></div>
+            <div className='lg:h-[100px]'></div>
             <h1 className='text-teal-600 text-5xl text-center font-semibold mb:10  pt-40 lg:pt-0'>My Skills</h1>
-            <div className='w-full pt-40 lg:pt-20 grid grid-cols-2 sm:grid-cols-3 gap-10 text-center items-center lg:ml-10 py-8 px-12 m-auto sm:px-0'>
+            <div className='w-full flex items-center justify-center'>
+                <div className='pt-40 lg:pt-20 grid grid-cols-2 sm:grid-cols-3 gap-10 text-center items-center py-0 px-0 lg:py-8 lg:px-12  m-auto sm:px-0'>
 
-                {skill.map(({ id, src, title, style }) => (
-                    <div key={id} className={`shadow-md hover:scale-105  duration-500 py-2 rounded-lg ${style} lg:w-80 `}>
-                        <img src={src} alt="html" className='w-20 mx-auto' />
-                        <p className='mt-4'>{title}</p>
-                    </div>
-                ))}
-                {/* <div className='sadow-md hover:scale-105 duration-500 py-2 rounded-lg'>
+                    {skill.map(({ id, src, title, style }) => (
+                        <div key={id} className={`shadow-md hover:scale-105  duration-500 py-2 rounded-lg ${style} lg:w-80 w-40 `}>
+                            <img src={src} alt="html" className='w-20 mx-auto' />
+                            <p className='mt-4'>{title}</p>
+                        </div>
+                    ))}
+                    {/* <div className='sadow-md hover:scale-105 duration-500 py-2 rounded-lg'>
                     <img src={html} alt="html" className='w-20 mx-auto' />
                     <p className='mt-4'>HTML</p>
                 </div> */}
+                </div>
             </div>
         </div>
     )

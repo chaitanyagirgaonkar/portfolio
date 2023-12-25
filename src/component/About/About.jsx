@@ -14,7 +14,7 @@ function About() {
                 </div>
                 <div >
                     <div className='text-white mt-0 lg:mt-10 w-80 lg:w-1/2 text-center m-auto dark:text-black'>
-                        I am currently pursing Diploma Third year in information Technology. skill in React, HTML,Javascript,C++,java Have hungry to learn new technologies and frameworks. Learn technologies quickly, helping to shorten turnaround times. Through my coursework and personal projects, I have gained hands-on experience in developing web applications and software solutions.
+                        I am currently pursing Diploma Third year in information Technology. skilled in React,HTML , Javascript, C++, java. Have hungry to learn new technologies and frameworks. Learn technologies quickly, helping to shorten turnaround times. Through my coursework and personal projects, I have gained hands-on experience in developing web applications and software solutions.
                     </div>
                     <div className='flex flex-col lg:flex-row justify-center gap-5   items-center lg:gap-20 mt-10 lg:mt-10'>
                         <div className=' p-5 w-64 h-21 border border-teal-600 rounded-3xl  text-center flex flex-col justify-center gap-1 '>

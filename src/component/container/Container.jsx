@@ -24,16 +24,16 @@ function Container() {
     }, [themeMode])
     return (
         <ThemeProvider value={{ themeMode, lightMode, darkMode }} >
-            <div className='h-screen w-screen'>
 
-                <Navbar />
-                <Home />
-                <About />
-                <Skill />
-                <Project />
-                <Contact />
-                <Footer />
-            </div>
+
+            <Navbar />
+            <Home />
+            <About />
+            <Skill />
+            <Project />
+            <Contact />
+            <Footer />
+
         </ThemeProvider>
     )
 }
