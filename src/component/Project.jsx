@@ -10,13 +10,17 @@ function Project() {
             id: 1,
             src: todo,
             style: 'shadow-purple-600',
-            border: 'border-purple-600'
+            border: 'border-purple-600',
+            code: 'https://github.com/chaitanyagirgaonkar/Todo-List',
+            link: 'https://todotrek.netlify.app/'
         },
         {
             id: 2,
             src: codemaster,
             style: 'shadow-green-600',
-            border: 'border-green-600'
+            border: 'border-green-600',
+            code: 'https://github.com/YashMulik2005/code_master',
+            link: 'https://mastercode.netlify.app/'
         },
 
 
@@ -31,12 +35,13 @@ function Project() {
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-20 px-12 sm:px-20 mx-auto pt-20 m-auto'>
 
-                {Project.map(({ id, src, style, border }) => (
+                {Project.map(({ id, src, style, border, code, link }) => (
                     <div key={id} className={`shadow-md  rounded-lg ${style} m-auto`}>
                         <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
                         <div className='flex items-center justify-center'>
-                            <button className={`w-1/2 text-white  border  rounded-md px-6 py-3 m-4 duration-200 hover:scale-105 ${border} dark:text-black`}>Demo</button>
-                            <button className={`w-1/2 text-white  border  rounded-md px-6 py-3 m-4 duration-200 hover:scale-105 ${border} dark:text-black`}>Code</button>
+                            <a href={link} target="blank"><button className={` text-white  border  rounded-md px-6 py-3 m-4 duration-200 hover:scale-105 ${border} dark:text-black`}>Demo</button></a>
+                            <a href={code} target="blank"> <button className={` text-white  border  rounded-md px-6 py-3 m-4 duration-200 hover:scale-105 ${border} dark:text-black`}>Code</button></a>
+
                         </div>
                     </div>
                 ))}

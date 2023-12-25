@@ -9,7 +9,7 @@ import Footer from '../Footer/Footer'
 import { ThemeProvider } from '../../context/Theme.js'
 function Container() {
 
-    const [themeMode, setThemeMode] = useState("dark")
+    const [themeMode, setThemeMode] = useState("light")
 
     const lightMode = () => {
         setThemeMode("light")

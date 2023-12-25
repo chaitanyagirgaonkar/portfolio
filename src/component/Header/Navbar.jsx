@@ -10,15 +10,15 @@ function Navbar() {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
 
-    const [dark, setDark] = useState(false)
+    const [dark, setDark] = useState(true)
     const { themeMode, darkMode, lightMode } = useTheme()
     const clickbtn = () => {
         setDark(!dark)
-        if (dark) {
-            lightMode()
+        if (!dark) {
+            darkMode()
         }
         else {
-            darkMode()
+            lightMode()
         }
 
     }
