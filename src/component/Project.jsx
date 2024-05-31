@@ -1,6 +1,8 @@
 import React from 'react'
 import todo from '../../public_pro/todo.png'
 import codemaster from '../../public_pro/codemaster.png'
+import careconnect from '../../public_pro/careconnect.png'
+import eduscribe from '../../public_pro/eduscribe.png'
 
 
 function Project() {
@@ -14,6 +16,15 @@ function Project() {
             code: 'https://github.com/chaitanyagirgaonkar/Todo-List',
             link: 'https://todotrek.netlify.app/'
         },
+        
+        {
+            id: 3,
+            src: eduscribe,
+            style: 'shadow-blue-600',
+            border: 'border-blue-600',
+            code: 'https://github.com/chaitanyagirgaonkar/eduscribe',
+            link: 'https://eduscribee.vercel.app/'
+        },
         {
             id: 2,
             src: codemaster,
@@ -21,6 +32,14 @@ function Project() {
             border: 'border-green-600',
             code: 'https://github.com/YashMulik2005/code_master',
             link: 'https://mastercode.netlify.app/'
+        },
+        {
+            id: 4,
+            src: careconnect,
+            style: 'shadow-blue-600',
+            border: 'border-blue-600',
+            code: 'https://github.com/chaitanyagirgaonkar/CareConnect',
+            link: 'https://careconnect-khaki.vercel.app/'
         },
 
 

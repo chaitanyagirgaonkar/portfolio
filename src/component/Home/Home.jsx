@@ -3,7 +3,7 @@ import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiFillGithub, AiFil
 import { HiArrowRight } from 'react-icons/hi';
 import deved from '../../../public_pro/dev.png';
 import { Link } from 'react-scroll'
-import resume from '../Header/resume.pdf'
+import resume from '../Header/resume_new.pdf'
 
 function Home() {
     return (

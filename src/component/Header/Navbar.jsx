@@ -3,7 +3,7 @@ import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram, AiFillGithub, AiFillMail } from 'react-icons/ai';
 import { Link } from 'react-scroll'
-import resume from '../Header/resume.pdf'
+import resume from '../Header/resume_new.pdf'
 import useTheme from '../../context/Theme';
 
 function Navbar() {
